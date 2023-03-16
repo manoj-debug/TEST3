@@ -29,6 +29,6 @@ client.messages
     
 })
 //process.env.PORT
-app.listen(port,function(req,res){
+app.listen(process.env.PORT,function(req,res){
     console.log("hello there");
 })
